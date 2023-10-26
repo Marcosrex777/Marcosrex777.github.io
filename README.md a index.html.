@@ -20,12 +20,12 @@
     <div id="result"></div>
 
     <script>
-        // Variables para el seguimiento de salarios, horas extras y empleados
+        
         var totalSalarios = 0;
         var totalHorasExtras = 0;
         var empleadoCount = 0;
 
-        // Función para calcular el arbitrio municipal
+        
         function calcularArbitrioMunicipal(ingresoMensual) {
             var arbitrio = 0;
             var multa = 0;
@@ -56,7 +56,7 @@
             return [arbitrio, multa];
         }
 
-        // Función para calcular el salario a recibir
+        
         function calcularSalario() {
             var salarioMensual = parseFloat(prompt("Ingrese el salario mensual del empleado:"));
             var bonificacion = parseFloat(prompt("Ingrese la bonificación del empleado:"));
@@ -74,7 +74,7 @@
             document.getElementById("result").innerHTML += resultText + "<br>";
         }
 
-        // Función para calcular las horas extras
+      
         function calcularHorasExtras() {
             var horasExtras = parseFloat(prompt("Ingrese la cantidad de horas extras realizadas (ingrese un número negativo para terminar):"));
             while (horasExtras > 0) {
@@ -91,16 +91,16 @@
             document.getElementById("result").innerHTML += "<br><br>" + resultText;
         }
 
-        // Pedir la cantidad de empleados
+       
         var numEmpleados = parseInt(prompt("Ingrese la cantidad de empleados:"));
         for (var i = 0; i < numEmpleados; i++) {
             calcularSalario();
         }
 
-        // Pedir y calcular las horas extras
+       
         calcularHorasExtras();
 
-        // Mostrar el promedio y suma de los salarios
+        
         mostrarPromedioYSuma();
     </script>
 </body>
