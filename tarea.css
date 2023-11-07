@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+#producto {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#producto img {
+    max-width: 100%;
+}
+
+#opciones {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#formulario label {
+    display: block;
+    margin: 10px 0;
+}
+
+#total {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+#total-pagar {
+    font-size: 24px;
+    font-weight: bold;
+}
