@@ -1,0 +1,245 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+
+		 margin: 0;
+    padding: 0;
+}
+
+
+section {
+    margin: 20px;
+}
+
+form {
+    display: flex;	
+    flex-direction: column;
+    max-width: 300px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+	
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 2em;
+}
+
+.titulo{
+	font-weight: 500px;
+font-size: 50px;
+	font-family: 'Asap', sans-serif;
+
+	
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-buttons button {
+    margin-left: 30px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 20px;
+    padding: 5px ;
+    cursor: pointer;
+	width: 100px;
+	
+}
+
+.barra {
+    display: flex;
+    align-items: center;
+	
+	
+}
+
+
+.barra input {
+    padding: 10px;
+	border-radius: 20px;
+	margin: 20px;
+	width: 300px;
+}
+.cont{
+	display:flex;
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 190vh;
+ 
+	
+	
+}
+.buscar{
+	width: 50px;
+}
+
+.img{
+	position: absolute;
+	top: 500px;
+	left: 100px;
+}
+
+.t1{
+	position: absolute;
+	top:230px;
+	left: 200px;
+	
+	font-family: 'Asap', sans-serif;
+	font-size: 90px;
+	
+
+}
+.p1{
+	position: absolute;
+	top: 460px;	
+	margin: 20px;
+	max-width: 950px;
+	font-size: 25px;
+	padding: 40px;
+	left: 1000px;
+
+}
+.p2{
+	position: absolute;
+	top: 900px;	
+	margin: 20px;
+	max-width: 950px;
+	font-size: 25px;
+	left: 1040px;
+	align-content: center;
+
+}
+#formulario {
+	width: 1100px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+	position: absolute;
+	top: 1300px;
+	left:500px;
+	text-align: center;
+	
+
+}
+
+.pregunta {
+    margin-bottom: 30px;
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+	align-items: center;
+	width: 1000px;
+	
+}
+.preguna2{
+	align-items: center;
+}
+.botones {
+    margin-top: 20px;
+	
+	
+}
+
+#resultado {
+    margin-top: 20px;
+}
+
+
+.big-font{
+	font-size: 50px;	
+}
+
+
+
+
+
+
+
+
+footer {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+	position:absolute;
+	top: 3600px;
+
+		
+	width: 100%;
+}
+
+.redes a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    margin-right: 10px;
+    border-radius: 50%;
+	
+}
+
+.icono-facebook {
+    background: url("img/facebook.png");
+		background-repeat: no-repeat;
+	background-position: center;
+   background-size: cover;
+}
+
+.icono-twitter {
+    background: url("img/youtube.png");
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+ 
+}
+
+.icono-instagram {
+    background: url("img/instagram.png");
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+ 
+}
+
+.icono-tiktok{
+	background: url("img/tik-tok.png");
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+ 
+	
+}
+.informacion-contacto p {
+    margin: 0;
+}
+
+.contactenos a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contactenos a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
